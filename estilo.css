@@ -1,0 +1,82 @@
+
+h2{
+	margin-top: 40px;
+	margin-left: 630px;
+	font-family: Circular, spotify-circular, Helvetica, Arial, sans-serif;
+}
+
+
+.formulario{
+	margin:40px 0px 0px 550px;
+	width: 450px;
+}
+
+.formulario input{
+	border-radius: 6px;
+	height: 40px;
+	margin-bottom: 15px;
+}
+
+input[type="text"]{
+	border:none;
+	border-bottom: 1px  solid #D3D3D3;
+	width: 425px;
+    border-bottom: 1px solid #D3D3D3;
+}
+
+input[type="email"]{
+	border:none;
+	border-bottom: 1px  solid #D3D3D3;
+	margin-top: -10px;
+	width: 425px;
+}
+input[type="password"]{
+	border:none;
+	border-bottom: 1px  solid #D3D3D3;
+	width: 425px;
+}
+select{
+	width: 425px;
+	height: 30px;
+}
+label {
+	margin-top: 3px;
+	padding-left: 5px;
+}
+label.error {
+	color: red;
+}
+ input[type=file]{
+ 	padding-top: 30px;
+ }
+
+input.rese{
+	margin-top: -12px;
+}
+
+input[type="submit"]{
+background-color: rgb(92, 128, 204);
+margin-top: 30px;
+width: 100px;
+border-radius: 500px;
+border:none;
+margin-left: 65px;
+background-color: 
+}
+
+input[type="submit"]:hover{
+	background-color: rgb(38, 69, 210);
+}
+
+input[type=reset]{
+	border-bottom: 1px  solid #D3D3D3;
+	margin-top: 30px;
+	border-radius: 500px;
+     border:none;
+	width: 100px;
+	margin-left:65px; 
+}
+
+input[type="reset"]:hover{
+	background-color: rgb(235, 223, 222);
+}
